@@ -8,5 +8,11 @@ public class BuildWebsiteRunner {
         Website website = director.buildWebsite();
 
         System.out.println(website);
+
+        director.setBuilder(new VisitCardWebsite());
+
+        website = director.buildWebsite();
+
+        System.out.println(website);
     }
 }
