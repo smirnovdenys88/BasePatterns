@@ -8,7 +8,7 @@ public class Program {
         System.out.println(developer.writeCode());
     }
 
-    private static DeveloperFactory createDeveloperBySpecialty(DeveloperSpecialty specialty) {
+    public static DeveloperFactory createDeveloperBySpecialty(DeveloperSpecialty specialty) {
         switch (specialty) {
             case JAVA:
                 return new JavaDeveloperFactory();

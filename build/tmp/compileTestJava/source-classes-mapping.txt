@@ -1,0 +1,4 @@
+com/company/creational/factory/ProgramTest.java
+ com.company.creational.factory.ProgramTest
+com/company/creational/singleton/ProgramRunnerTest.java
+ com.company.creational.singleton.ProgramRunnerTest

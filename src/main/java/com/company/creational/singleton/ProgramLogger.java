@@ -19,4 +19,8 @@ public class ProgramLogger {
         System.out.println(logFile);
     }
 
+    public String showLogFile(){
+        return logFile;
+    }
+
 }
