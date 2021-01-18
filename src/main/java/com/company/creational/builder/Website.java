@@ -5,6 +5,18 @@ public class Website {
     private Cms cms;
     private int price;
 
+    public String getName() {
+        return name;
+    }
+
+    public Cms getCms() {
+        return cms;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
